@@ -1,6 +1,4 @@
-import Hero from "./components/Hero";
+import App from "./App.js";
 import "./style.css";
 
-const app = document.getElementById("app");
-
-app.innerHTML = `${Hero()}`;
+document.getElementById("app").innerHTML = App();
