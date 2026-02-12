@@ -1,2 +1,14 @@
 @import "tailwindcss";
 @import "@fortawesome/fontawesome-free/css/all.css";
+
+.projects-grid > div {
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.projects-grid:has(> div:hover) > div:not(:hover) {
+  opacity: 0.5;
+}
