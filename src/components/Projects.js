@@ -7,13 +7,12 @@ export default function Projects() {
      </p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:px-5 gap-8 transition-all duration-300 group">
           <div
-            class="bg-gray-800 h-full max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl flex flex-col hover:scale-105 hover:bg-slate-800 group-hover:opacity-50 hover:opacity-90! transition-all duration-300"
-          >
+            class="bg-gray-800 h-full max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl flex flex-col hover:scale-105
+                   hover:bg-slate-800 group-hover:opacity-50 hover:opacity-90! transition-all duration-300">
             <img
               src="./project_1.jpg"
               alt="Pizzeria Mamma Mia"
-              class="w-full h-70 object-cover"
-            />
+              class="w-full h-70 object-cover"/>
             <div class="flex flex-col flex-1 p-6">
               <h3 class="text-2xl font-semibold text-white mb-4">
                 Pizzeria Mamma Mia
@@ -30,30 +29,24 @@ export default function Projects() {
               </p>
               <div class="gap-1 flex-wrap flex mb-2">
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >HTML</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">HTML</span>
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >CSS</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">CSS</span>
               </div>
               <a
                 href="https://github.com/milty90/The-Restaurant-Project"
                 target="_blank"
-                class="w-fit bg-indigo-800 mt-auto p-2 rounded-md font-medium text-amber-50 hover:bg-blue-700"
-                ><i class="fa-solid fa-code mr-1.5"></i> Code ansehen</a
-              >
+                class="w-fit bg-indigo-800 mt-5 p-2 rounded-md font-medium text-amber-50 hover:bg-blue-700"> 
+              <i class="fa-solid fa-code mr-1.5"></i> Code ansehen</a>
             </div>
           </div>
           <div
-            class="bg-gray-800 h-full max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl flex flex-col hover:scale-105 hover:bg-slate-800 group-hover:opacity-50 hover:opacity-90! transition-all duration-300"
-          >
+            class="bg-gray-800 h-full max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl flex flex-col hover:scale-105
+                   hover:bg-slate-800 group-hover:opacity-50 hover:opacity-90! transition-all duration-300">
             <img
               src="./project_2.jpg"
               alt="Taschenrechner App"
-              class="w-full h-70 object-cover"
-            />
+              class="w-full h-70 object-cover"/>
             <div class="flex flex-col flex-1 p-6">
               <h3 class="text-2xl font-semibold text-white mb-4">
                 Taschenrechner App
@@ -71,29 +64,22 @@ export default function Projects() {
               </p>
               <div class="gap-1 flex-wrap flex mb-2">
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >HTML</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">HTML</span>
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >CSS</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">CSS</span>
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >JavaScript</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">JavaScript</span>
               </div>
               <a
                 href="https://github.com/milty90/Taschenrechner"
                 target="_blank"
-                class="w-fit bg-indigo-800 mt-auto p-2 rounded-md font-medium text-amber-50 hover:bg-blue-700"
-                ><i class="fa-solid fa-code mr-1.5"></i> Code ansehen</a
-              >
+                class="w-fit bg-indigo-800 mt-5 p-2 rounded-md font-medium text-amber-50 hover:bg-blue-700"> 
+              <i class="fa-solid fa-code mr-1.5"></i> Code ansehen</a>
             </div>
           </div>
           <div
-            class="bg-gray-800 h-full max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl flex flex-col hover:scale-105 hover:bg-slate-800 group-hover:opacity-50 hover:opacity-90! transition-all duration-300"
-          >
+            class="bg-gray-800 h-full max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl flex flex-col hover:scale-105
+                   hover:bg-slate-800 group-hover:opacity-50 hover:opacity-90! transition-all duration-300">
             <img
               src="./project_3.jpg"
               alt="Witze App"
@@ -101,6 +87,7 @@ export default function Projects() {
             />
             <div class="flex flex-col flex-1 p-6">
               <h3 class="text-2xl font-semibold text-white mb-4">Witze App</h3>
+
               <a
                 href="https://witze-app.onrender.com/"
                 target="_blank"
@@ -108,41 +95,31 @@ export default function Projects() {
                 >witze-app.onrender.com
                 <i class="fa-solid fa-up-right-from-square"></i>
               </a>
+
               <p class="text-gray-400 mb-4">
                 Webanwendung für die Anzeige und Verwaltung von Witzen.
               </p>
+
               <div class="flex flex-wrap gap-2 pb-2 mb-auto">
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >HTML</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">HTML</span>
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >JavaScript</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">JavaScript</span>
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >SCSS</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">SCSS</span>
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >BEM</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">BEM</span>
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >Vite</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">Vite</span>
                 <span
-                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all"
-                  >AJAX</span
-                >
+                  class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-1 rounded-xl text-sm group-hover:bg-zinc-700 transition-all">AJAX</span>
               </div>
+              
               <a
                 href="https://github.com/milty90/witze-app"
                 target="_blank"
-                class="w-fit bg-indigo-800 mt-4 p-2 rounded-md font-medium text-amber-50 hover:bg-blue-700"
-                ><i class="fa-solid fa-code mr-1.5"></i> Code ansehen</a
-              >
+                class="w-fit bg-indigo-800 mt-5 p-2 rounded-md font-medium text-amber-50 hover:bg-blue-700">
+                <i class="fa-solid fa-code mr-1.5"></i> Code ansehen</a>
             </div>
           </div>
         </div>
