@@ -87,7 +87,6 @@ export default function Projects() {
             />
             <div class="flex flex-col flex-1 p-6">
               <h3 class="text-2xl font-semibold text-white mb-4">Witze App</h3>
-
               <a
                 href="https://witze-app.onrender.com/"
                 target="_blank"
@@ -95,12 +94,10 @@ export default function Projects() {
                 >witze-app.onrender.com
                 <i class="fa-solid fa-up-right-from-square"></i>
               </a>
-
-              <p class="text-gray-400 mb-4">
+                 <p class="text-gray-400 mb-4">
                 Webanwendung für die Anzeige und Verwaltung von Witzen.
               </p>
-
-              <div class="flex flex-wrap gap-2 pb-2 mb-auto">
+            <div class="flex flex-wrap gap-2 pb-2 mb-auto">
                 <span
                   class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-auto rounded-xl text-sm group-hover:bg-zinc-700 transition-all">HTML</span>
                 <span
@@ -113,8 +110,7 @@ export default function Projects() {
                   class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-auto rounded-xl text-sm group-hover:bg-zinc-700 transition-all">Vite</span>
                 <span
                   class="text-amber-50 font-medium bg-gray-600 px-3.5 py-0.5 mb-auto rounded-xl text-sm group-hover:bg-zinc-700 transition-all">AJAX</span>
-              </div>
-              
+            </div>
               <a
                 href="https://github.com/milty90/witze-app"
                 target="_blank"

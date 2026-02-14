@@ -1,14 +1,9 @@
 @import "tailwindcss";
 @import "@fortawesome/fontawesome-free/css/all.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesque:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap");
 
-.projects-grid > div {
-  transition:
-    opacity 0.3s ease,
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    background-color 0.3s ease;
-}
-
-.projects-grid:has(> div:hover) > div:not(:hover) {
-  opacity: 0.5;
+:root {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Space Grotesque", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 }

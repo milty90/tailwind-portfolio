@@ -5,9 +5,857 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tailwind-portfolio</title>
-  </head>
-  <body class="bg-gray-900">
-    <div id="app" class="mt-20 lg:mt-32 px-6"></div>
-    <script type="module" src="/src/main.js"></script>
+    <link href="/src/style.css" rel="stylesheet">
+</head>
+  <body class="bg-gray-900 font-sans text-gray-400">
+    <section id="home" class="relative bg-linear-to-t  from-gray-900 from-20% to-gray-950 to-80% min-h-screen flex items-center justify-center overflow-hidden">
+      <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute inset-0 bg-[linear-gradient(to_right,rgba(85,30,150,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(85,30,150,0.1)_1px,transparent_1px)] bg-[size:50px_50px]">
+
+        </div><div class="absolute inset-0 bg-[linear-gradient(to_right,rgba(6,30,200,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(6,30,200,0.05)_1px,transparent_1px)] bg-[size:100px_100px]"></div>
+      <div class="absolute inset-0 bg-gray-900 mask-[linear-gradient(to_bottom,transparent_0%,black_100%)]"></div>
+</div>
+  <div class="relative z-10 text-center px-6 max-w-4xl">
+    <span class="font-mono text-sm uppercase tracking-[0.3em] text-blue-500 mb-4 block">
+        Hallo, ich bin Milan.
+    </span>
+    <h1 class="text-5xl md:text-8xl font-bold text-white tracking-tighter mb-6">
+        Ihr neuer <br />
+      <span class="bg-linear-to-r from-blue-600 via-purple-500 to-pink-500 pb-1 px-auto bg-clip-text text-transparent lg:whitespace-nowrap">
+        Frontend Developer.
+      </span>
+    </h1>
+      <p class="font-sans text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+          Moderne digitale Erlebnisse, wo Code und Ästhetik eins werden. Schau
+          dir meine aktuellsten Projekte unten an!
+      </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="#projects"
+            class="inline-block px-8 py-4 bg-amber-50 text-gray-900 font-bold rounded-full hover:bg-violet-500 hover:text-white transition-all duration-300 shadow-xl"
+          >
+            Projecte ansehen
+          </a>
+          <a
+            href="#contact"
+            class="px-8 py-4 border border-gray-700 text-white font-semibold rounded-full hover:bg-gray-800 transition-colors duration-300"
+          >
+            Kontakt
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="bg-gray-900 py-24 px-6">
+      <div class="max-w-5xl mx-auto">
+        <div class="mb-16">
+          <h2
+            class="text-4 font-mono text-blue-400 tracking-widest uppercase mb-2"
+          >
+            Portfolio
+          </h2>
+          <h3
+            class="text-4xl md:text-5xl font-bold text-white tracking-tighter"
+          >
+            Meine
+            <span
+              class="bg-clip-text text-transparent bg-linear-to-r from-blue-600 via-purple-500 to-pink-500 text-6xl"
+              >Highlights</span
+            >
+          </h3>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Mamma Mia Website -->
+          <div
+            class="group relative p-px rounded-2xl bg-gray-800 overflow-hidden transition-all duration-300 hover:scale-[1.02]"
+          >
+            <div
+              class="absolute inset-0 bg-linear-60 from-blue-600 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            ></div>
+
+            <div class="relative bg-gray-900 p-8 rounded-2xl h-full flex flex-col">
+              <div class="flex justify-between items-start mb-6">
+                <div class="p-1 bg-gray-800 rounded-lg text-blue-400">
+                  <img
+                    src="./project_1.jpg"
+                    alt="Mamma Mia"
+                    class="rounded-lg object-cover h-36 w-full"
+                  />
+                </div>
+                <div class="flex gap-4">
+                  <a
+                    href="https://github.com/milty90/The-Restaurant-Project"
+                    class="text-gray-500 hover:text-white transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://the-restaurant-project.onrender.com" target="_blank"
+                    class="text-gray-500 hover:text-white transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <h4 class="text-2xl font-bold text-white mb-3">
+                Webseite Mamma Mia
+              </h4>
+              <p class="text-gray-400 mb-6 leading-relaxed">
+                Eine responsive Webseite für das Restaurant Mamma Mia, erstellt mit HTML5 und CSS3. Inklusive moderner Layouts, 
+                Animationen.
+              </p>
+              <div class="flex flex-wrap gap-2 mt-auto">
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-orange-400 rounded-full border border-gray-700"
+                  >HTML5</span
+                >
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-blue-500 rounded-full border border-gray-700"
+                  >CSS3</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Taschenrechner App -->
+          <div
+            class="group relative p-px rounded-2xl bg-gray-800 overflow-hidden transition-all duration-300 hover:scale-[1.02]"
+          >
+            <div
+              class="absolute inset-0 bg-linear-60 from-blue-600 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            ></div>
+
+            <div class="relative bg-gray-900 p-8 rounded-2xl h-full flex flex-col">
+              <div class="flex justify-between items-start mb-6">
+                <div class="p-1 bg-gray-800 rounded-lg text-blue-400">
+                  <img
+                    src="./project_2.jpg"
+                    alt="Taschenrechner"
+                    class="rounded-lg object-cover h-36 w-full"
+                  />
+                </div>
+                <div class="flex gap-4">
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-white transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-white transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <h4 class="text-2xl font-bold text-white mb-3">
+                Taschenrechner App
+              </h4>
+              <p class="text-gray-400 mb-6 leading-relaxed">
+                Eine einfache, aber moderne Taschenrechner-App, entwickelt mit
+                JavaScript und CSS. Sie bietet grundlegende Funktionen
+                und ein modernes Design.
+              </p>
+
+              <div class="flex flex-wrap gap-2 mt-auto">
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-orange-400 rounded-full border border-gray-700"
+                  >HTML5</span
+                >
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-blue-400 rounded-full border border-gray-700"
+                  >CSS3</span
+                >
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-yellow-400 rounded-full border border-gray-700"
+                  >JavaScript</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Witze App -->
+          <div
+            class="group relative p-px rounded-2xl bg-gray-800 overflow-hidden transition-all duration-300 hover:scale-[1.02]"
+          >
+            <div
+              class="absolute inset-0 bg-linear-60 from-blue-600 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            ></div>
+            <div class="relative bg-gray-900 p-8 rounded-2xl h-full flex flex-col">
+              <div class="flex justify-between items-start mb-6">
+                <div class="p-1 bg-gray-800 rounded-lg text-blue-400">
+                  <img
+                    src="./project_3.jpg"
+                    alt="Witze App"
+                    class="rounded-lg object-cover h-36 w-full"
+                  />
+                </div>
+                <div class="flex gap-4">
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-white transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-white transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              
+                
+              <h4 class="text-2xl font-bold text-white mb-3">
+                Witze App
+              </h4>
+              <p class="relative  text-gray-400 mb-6 leading-relaxed">
+                Eine lustige Witze-App, die zufällige Witze von einer öffentlichen
+                API abruft. Entwickelt mit HTML, CSS, JavaScript, Vite für ein
+                modernes und responsives Design.
+              </p>
+              
+
+              <div class="flex flex-wrap gap-2 relative mt-auto">
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-orange-400 rounded-full border border-gray-700"
+                  >HTML5</span
+                >
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-blue-400 rounded-full border border-gray-700"
+                  >CSS3</span
+                >
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-yellow-400 rounded-full border border-gray-700"
+                  >JavaScript</span
+                >
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-violet-400 rounded-full border border-gray-700"
+                  >Vite</span>
+              </div>
+              
+            </div>
+          </div>
+          <!--Wetter App-->
+          <div
+            class="group relative p-px rounded-2xl bg-gray-800 overflow-hidden transition-all duration-300 hover:scale-[1.02]"
+          >
+            <div
+              class="absolute inset-0 bg-linear-60 from-blue-600 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            ></div>
+            <div class="relative bg-gray-900 p-8 rounded-2xl h-full flex flex-col">
+              <div class="flex justify-between items-start mb-6">
+                <div class="p-1 bg-gray-700 rounded-lg">
+                 <video
+                    src="./project_4.mp4"
+                    autoplay
+                    muted
+                    loop
+                    class="rounded-lg object-cover h-36 w-60"
+                  ></video>
+                </div>
+                <div class="flex gap-4">
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-white transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-white transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+                
+                <h4 class="text-2xl font-bold text-white mb-3">
+                Wetter App 
+              </h4>
+              <p class="text-gray-400 mb-6 leading-relaxed">
+                Eine moderne Wetter-App, die aktuelle Wetterdaten von einer öffentlichen API abruft. Entwickelt mit Vanilla JavaScript, CSS und HTML für ein ansprechendes Design und eine reibungslose Benutzererfahrung.
+              </p>
+
+            
+             
+
+              <div class="flex flex-wrap gap-2 mt-auto">
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-orange-400 rounded-full border border-gray-700"
+                  >HTML5</span
+                >
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-blue-400 rounded-full border border-gray-700"
+                  >CSS3</span
+                >
+                <span
+                  class="px-3 py-1 text-xs font-mono bg-gray-800 text-yellow-400 rounded-full border border-gray-700"
+                  >JavaScript</span
+                >
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-900 py-20 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-12 flex items-center gap-4">
+          <span class="h-px w-12 bg-blue-400"></span>
+          Tech Stack 
+        </h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-orange-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+            <img
+              src="html.svg"
+              alt="HTML Logo"
+              class="mx-auto w-12 h-12"
+             />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              HTML5
+            </p>
+          </div>
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-blue-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="css3.svg"
+                alt="CSS Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              CSS3
+            </p> 
+          </div>
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-yellow-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="js.svg"
+                alt="JavaScript Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              JavaScript
+            </p>
+          </div>
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-violet-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="vite-svg.svg"
+                alt="Vite Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              Vite
+            </p>
+          </div>
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-pink-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="scss.svg"
+                alt="SCSS Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              SCSS
+            </p>
+          </div>
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-cyan-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="react.svg"
+                alt="React Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              React
+            </p>
+          </div>
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-sky-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="ts.svg"
+                alt="TypeScript Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              TypeScript
+            </p>
+          </div>
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-cyan-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="tailwind.svg"
+                alt="Tailwind Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              Tailwind
+            </p>
+          </div>
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-cyan-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="netlify.svg"
+                alt="Netlify Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              Netlify
+            </p>
+          </div>
+
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-orange-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="git.svg"
+                alt="Git Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              Git
+            </p>
+          </div>
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-white/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="github.svg"
+                alt="GitHub Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              GitHub
+            </p>
+          </div>
+          <div
+            class="group p-6 bg-gray-800/50 border border-gray-800 rounded-xl hover:border-blue-500/50 transition-all duration-300 text-center"
+          >
+            <div
+              class="text-4xl mb-3 grayscale group-hover:grayscale-0 transition-all"
+            >
+              <img  
+                src="tailwind.svg"
+                alt="Tailwind Logo"
+                class="mx-auto w-12 h-12"
+              />
+            </div>
+            <p
+              class="text-gray-400 group-hover:text-white font-mono text-sm transition-colors"
+            >
+              Tailwind
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-900 py-24 px-6">
+      <div class="max-w-4xl mx-auto">
+        <h2
+          class="text-4xl font-bold text-white mb-16 text-center tracking-tighter"
+        >
+          Meine <span class="text-blue-500">Berufserfahrung
+        </h2>
+
+        <div class="relative border-l border-gray-800 ml-4 md:ml-0">
+          <div class="mb-12 ml-8 relative">
+            <div
+              class="absolute -left-10.25 top-1 w-5 h-5 rounded-full bg-blue-600 border shadow-[0_0_35px_rgba(255,255,255,0.6)]"
+            ></div>
+
+            <span
+              class="font-mono text-xs text-purple-400 uppercase tracking-widest"
+              >2025 - heute</span
+            >
+            <h3 class="text-2xl font-bold text-white mt-1">
+              Frontend Developer Weiterbildung
+            </h3>
+            <p class="text-blue-400 font-medium mb-4">DevKarriere </p>
+            <p class="text-gray-400 leading-relaxed">
+              Intensives Bootcamp mit Fokus auf moderne Frontend-Technologien,
+              agile Entwicklungsmethoden und praxisnahe Projekte.
+            </p>
+          </div>
+
+          <div class="mb-12 ml-8 relative">
+            <div
+              class="absolute -left-10.25 top-1 w-5 h-5 rounded-full bg-gray-800 border-2 border-purple-500"
+            ></div>
+            <span
+              class="font-mono text-xs text-gray-500 uppercase tracking-widest"
+              >2021 - heute</span
+            >
+            <h3 class="text-2xl font-bold text-white mt-1">
+              AOI Programmierer
+            </h3>
+            <p class="text-blue-400 font-medium mb-4">Hekatron GmbH</p>
+            <p class="text-gray-400 leading-relaxed">
+              Automatisierte optische Inspektion von Leiterplatten, Fehlererkennung und Qualitätskontrolle in der Elektronikfertigung.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="py-24 px-6 bg-gray-900">
+      <div
+        class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-16"
+      >
+        <div class="relative group w-64 h-64 md:w-80 md:h-80 shrink-0">
+          <div
+            class="absolute -inset-1 bg-linear-60 from-blue-600 via-purple-500 to-pink-500 rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200"
+          ></div>
+
+          <div
+            class="relative w-full h-full bg-gray-900 rounded-2xl overflow-hidden border border-gray-800"
+          >
+            <img
+              src="me2.jpg"
+              alt="about me"
+              class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 scale-110 group-hover:scale-100"
+            />
+          </div>
+
+          <div
+            class="absolute -bottom-4 -right-4 bg-gray-800 border border-gray-700 p-4 rounded-xl shadow-2xl"
+          >
+        <a href="#" class="text-gray-500 hover:text-white transition-colors">
+          <svg 
+          xmlns="http://www.w3.org/2000/svg" fill="none" 
+          viewBox="0 0 24 24" stroke-width="1.5" 
+          stroke="currentColor" class="size-6">
+         <path stroke-linecap="round" stroke-linejoin="round" 
+         d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 
+         0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 
+         0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 
+         14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 
+         1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 
+         4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div class="flex-1">
+          <h2
+            class="font-display text-4xl font-bold text-white mb-6 tracking-tighter"
+          >
+            Hi, <span class="text-blue-500">ich bin</span> der Mann hinter dem
+            Code.
+          </h2>
+          <div class="space-y-4 text-lg">
+            <p>
+              Meine Leidenschaft ist es, klare, ästhetische und funktionale Websites zu erstellen. Wenn ich nicht gerade in die Tasten haue, recherchiere ich wahrscheinlich die neuesten Technologien oder verfolge aktuelle Design Trends.
+            </p>
+            <p class="text-gray-400">
+              Ich glaube fest daran, dass guter Code nicht nur funktionieren muss, sondern auch lesbar und nachhaltig sein sollte. Mein Ziel ist es, digitale Produkte zu schaffen, die echten Mehrwert für die Nutzer bieten.
+            </p>
+          </div>
+
+          <div class="mt-8 flex gap-4">
+            <a
+              href="#"
+              class="p-3 bg-gray-800 rounded-lg hover:text-violet-700 transition-colors"
+            >
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 0c-6.627 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+            <button
+              class="px-6 py-3 border border-gray-700 rounded-lg hover:border-purple-500 transition-colors font-mono text-sm"
+            >
+              CV herunterladen
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="bg-gray-900 py-24 px-6">
+      <div
+        class="max-w-5xl mx-auto bg-linear-to-br from-gray-800 to-gray-900 rounded-3xl p-8 md:p-16 border border-gray-800 relative overflow-hidden text-center"
+      >
+        <div
+          class="absolute -top-24 -right-24 w-64 h-64 bg-blue-600/20 rounded-full blur-3xl"
+        ></div>
+
+        <h2
+          class="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tighter"
+        >
+          Bereit, gemeinsam etwas
+          <br />
+          <span
+            class="text-transparent bg-clip-text bg-linear-to-r from-blue-600 via-purple-500 to-pink-500"
+          >
+            Großartiges zu schaffen!
+
+          </span>
+        </h2>
+        <p class="text-gray-400 text-lg mb-10 max-w-xl mx-auto">
+          Aktuell bin ich für neue Projekte oder Vollzeit-Herausforderungen verfügbar. Kontaktieren Sie mich gerne!
+        </p>
+
+        <a
+            href="mailto:hello@milan.com"
+            class="px-8 py-4 border border-gray-700 text-white font-semibold rounded-full hover:bg-gray-800 transition-colors duration-300"
+          >
+            Email senden
+          </a>
+      </div>
+    </section>
+    <footer class="bg-gray-950 py-10 border-t border-gray-800">
+      <div
+        class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center"
+      >
+        <p class="text-gray-500 font-mono text-sm">
+          &copy; 2026 Milan Tyopity. Erstellt mit
+          <span class="text-pink-500">Tailwind</span> CSS.
+        </p>
+        <div class="flex gap-6 mt-4 md:mt-0">
+          <a
+            href="#myModal"
+            onclick="openModal('Impressum', 'Hier steht der Inhalt des Impressums.')"
+            class="text-gray-400 hover:text-pink-500  transition-colors"
+            >Impessum</a
+          >
+          <a
+            href="https://github.com/" target="_blank"
+            class="text-gray-400 hover:text-blue-500 transition-colors"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/" target="_blank"
+            class="text-gray-400 hover:text-purple-500 transition-colors"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+    <div id="myModal" class="fixed inset-0 z-50 hidden items-center justify-center">
+      <!-- Sötét háttér overlay -->
+      <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="closeModal()"></div>
+      <!-- Modal tartalom -->
+      <div class="relative z-10 bg-gray-800 border border-gray-700 rounded-2xl p-8 max-w-lg w-full mx-4 shadow-2xl">
+        
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-2xl font-bold text-white" id="modal-title"></h2>
+          <button id="close-button" class="text-gray-400 hover:text-white transition-colors text-3xl leading-none">&times;</button>
+        </div>
+        <p class="text-gray-400 leading-relaxed" id="modal-body"></p>
+      </div>
+    </div>
+    <script>
+      const modal = document.getElementById("myModal");
+      const modalTitle = document.getElementById("modal-title");
+      const modalBody = document.getElementById("modal-body");
+      const closeButton = document.getElementById("close-button");
+
+      function openModal(title, content) {
+        modalTitle.textContent = title;
+        modalBody.textContent = content;
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+      }
+
+      function closeModal() {
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+      }
+
+      closeButton.addEventListener("click", closeModal);
+
+      window.addEventListener("click", (event) => {
+        if (event.target === modal) {
+          closeModal();
+        }
+      });
+    </script>
+    
   </body>
 </html>
