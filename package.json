@@ -14,6 +14,7 @@
     "vite": "^7.2.4"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.1.0"
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "@icon/font-awesome": "^4.7.0-2"
   }
 }
